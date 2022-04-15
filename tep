@@ -1,0 +1,23 @@
+
+[1mFrom:[0m /home/brentbarnes/top_ruby/ruby-projects/connect_four/lib/game.rb:33 Game#place_piece:
+
+    [1;34m25[0m: [32mdef[0m [1;34mplace_piece[0m
+    [1;34m26[0m:   column = get_selection
+    [1;34m27[0m:   red_circle = [31m[1;31m"[0m[31m[1;35m\u[0m[31m2b24[1;31m"[0m[31m[0m.encode([31m[1;31m'[0m[31mutf-8[1;31m'[0m[31m[0m).colorize([33m:red[0m)
+    [1;34m28[0m:   yellow_circle = [31m[1;31m"[0m[31m[1;35m\u[0m[31m2b24[1;31m"[0m[31m[0m.encode([31m[1;31m'[0m[31mutf-8[1;31m'[0m[31m[0m).colorize([33m:yellow[0m)
+    [1;34m29[0m:   
+    [1;34m30[0m:   row = [1;34m5[0m
+    [1;34m31[0m:   [32muntil[0m row < [1;34m0[0m [32mdo[0m
+    [1;34m32[0m:     [32mif[0m board.space_empty?(row, column)
+ => [1;34m33[0m:       board.board[row][column] = red_circle
+    [1;34m34[0m:       [32mreturn[0m
+    [1;34m35[0m:     [32melsif[0m !board.space_empty?(row, column)
+    [1;34m36[0m:       row -= [1;34m1[0m
+    [1;34m37[0m:     [32melsif[0m !board.space_empty?([1;34m0[0m, column)
+    [1;34m38[0m:       puts [31m[1;31m'[0m[31mColumn is full. Choose another column.[1;31m'[0m[31m[0m
+    [1;34m39[0m:       place_piece
+    [1;34m40[0m:     [32mend[0m
+    [1;34m41[0m:     binding.pry
+    [1;34m42[0m:   [32mend[0m
+    [1;34m43[0m: [32mend[0m
+
