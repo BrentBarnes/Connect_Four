@@ -10,7 +10,7 @@ This has similar functionality to all of the other Ruby CLI games I have built. 
 
 ### 50 Passing Tests
 
-![Tests1](tests1.png)
-![Tests2](tests2.png)
-![Tests3](tests3.png)
+![Tests1](tests1.png)  
+![Tests2](tests2.png)  
+![Tests3](tests3.png)  
 ![Tests4](tests4.png)
