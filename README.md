@@ -8,6 +8,8 @@ This has similar functionality to all of the other Ruby CLI games I have built. 
 
 ![Connect Four Video Demo](connect-four.gif)
 
+Click here for a [LIVE DEMO](https://replit.com/@brenttbarness/Connect-Four-Ruby-CLI-Game-1?v=1)!
+
 ### 50 Passing Tests
 
 ![Tests1](tests1.png)  
